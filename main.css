@@ -1,0 +1,407 @@
+body {
+   height: 100%;
+   width: 100%;
+    background: #000000;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gayathri', sans-serif;
+
+    
+    
+}
+header h1 {
+    opacity: 0;
+}
+ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+}
+li{
+    padding: 5px;
+    margin-right:1em;
+}
+video{
+    width: 397px;
+    height: 300px;
+    padding-left: 5px;
+    
+
+}
+a{
+    color:  rgba(255, 255, 255, 1);
+    font-size: 1.7em;
+  
+}
+h6 a {
+    color: purple;
+    font-size: 1em;
+    text-decoration: none;
+}
+h6{
+    font-size: 1.3em;
+    padding-bottom: 20px;
+}
+li:hover{
+    cursor: pointer;
+    background: #000000;
+}
+.fas{
+    padding: 5px;
+}
+
+hr{
+    width: 80%;
+    border: 10x solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.container{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  
+   }
+
+.nav{
+    background: rgba(41, 80, 60, 1);
+    color: white;
+    float: left;
+    height: 100vh;
+   text-align: left;
+  
+    
+}
+
+.div1{
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    width: 35%;
+    height: 340px;
+    position: relative;
+    z-index: 0;
+    margin: 10% auto;
+    color: white;
+    padding-top: 5%;
+    position: sticky;
+    background-image: url(pic3.jpg);
+    background-position: center;
+    background-size: cover;
+    /* animation: backAnimation 30s linear infinite; */
+}
+.div2{
+    background: rgba(255, 255, 255, 1);
+    width: 35%;
+    height: 40vh;
+    margin: 10% auto;
+    text-align: left;
+    padding: 1%;
+    color: rgba(60, 77, 74, 1);
+    font-size: .95em;
+}
+.div3{
+    background:rgba(255, 255, 255, 1);
+    width: 35%;
+    margin: 10% auto;
+}
+.div3 h6{
+    padding-bottom: 30px;
+}
+
+.left-arrow {
+    float: left;
+    margin-top: 33%;
+    font-size: 1.6em;
+}
+.right-arrow{
+    float:right;
+   color: black;
+   margin-top: 33%;
+   padding-left: 17px;
+    font-size: 1.6em;
+}
+i:hover{
+    cursor: pointer;
+}
+
+.div2 p {
+    line-height: 1.6em;
+    font-size: 1.2em;
+}
+.div2 h4{
+    font-size: 1.2em;
+}
+.close,.close-div3{
+    float: right;
+    color: red;
+}
+.close:hover{
+    cursor: pointer;
+}
+.fade{
+    display: none;
+}
+.div4{
+    background: #f8f8f8;
+    width: 35%;
+    height: 300px;
+    padding: 20px;
+    margin: 10% auto;
+    font-size: 1.2em;
+}
+.div4 h6{
+    font-size: .9em;
+    color: blue;
+}
+.div4 p{
+    font-size: .87em;
+}
+.close-div4{
+    float: right;
+    color: red;
+}
+#info{
+    background: rgba(141, 113, 37, 1);
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 2%;
+    color: white;
+}
+#btn-div2, #btn-div4{
+    float: right;
+   margin-top:2em;
+   font-size: 1.4em;
+   border-radius: 5px;
+   background: rgba(60, 77, 74, 1);
+   color: white;
+}
+
+
+
+@media(max-width:375px){
+    body,.container{
+        width: 100%;
+        height: 812px;
+    }
+    .nav{
+        background: rgba(41, 80, 60, 1);
+        color: white;
+        float: left;
+        width: 15%;
+        height: 812px;
+       text-align: left;
+        
+    }
+    ul {
+        list-style: none;
+        display: inline-block;
+        text-align: left;
+       padding: 0;
+       
+       
+    }
+    li{
+        text-align: left;
+        font-size: .5em;
+        display: inline-block;
+        padding: 0;
+        
+       
+    }
+    a{
+        color:  rgba(255, 255, 255, 1);
+        font-size: .7em;
+      
+    }
+
+    .fas{
+        font-size: .3em;
+       padding-right: 20px;
+    }
+    .div1{
+        
+        text-align: center;
+        width: 70%;
+        height: 250px;
+        margin: 20% auto;
+        color: white;
+        padding-top: 5%;
+        background-image: url(pic3.jpg);
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .div2, .div3,.div4{
+        width: 70%;
+        height: 250px;
+        margin: 20% auto;
+    }
+    .div1 h1 {
+        font-size: 1.2em;
+    }
+    .div1 h3 {
+        font-size: 1em;
+    }
+    .div1 .icons{
+       
+        font-size: 1.5em;
+    }
+    .div1 #info {
+       font-size: .8em;
+    }
+    .div2 h4{
+        font-size: .5em;
+    }
+    .div2 p{
+        font-size: .7em;
+    }
+    .div3 div{
+        width: 70%;
+        height: 200px;
+        
+       
+    }
+    .div3 video{
+        width: 65%;
+        height: 180px;
+        
+    }
+ 
+    .showcase1 h6, .showcase2 h6 {
+        font-size: .6em;
+    }
+
+    .div4 h6 {
+        font-size: .5em;
+    }
+    .div4 p {
+        font-size: .7em;
+    }
+ 
+}
+@media(max-width: 414px){
+    body,.container{
+        width: 100%;
+        height: 736px;
+    }
+    .nav{
+        background: rgba(41, 80, 60, 1);
+        color: white;
+        float: left;
+        width: 15%;
+        height: 736px;
+       text-align: left;
+        
+    }
+    ul {
+        list-style: none;
+        display: inline-block;
+        text-align: left;
+       padding: 0;
+       
+       
+    }
+    li{
+        text-align: left;
+        font-size: .7em;
+        display: inline-block;
+        padding: 0;
+        
+       
+    }
+    a{
+        color:  rgba(255, 255, 255, 1);
+        font-size: .7em;
+      
+    }
+
+    .fas{
+        font-size: .3em;
+       padding-right: 20px;
+    }
+    .div1,.div2,.div3,.div4{
+        width: 70%;
+        height: 250px;
+        margin: 35% auto;
+    }
+    .div1 h1 {
+        font-size: 1.4em;
+    }
+    .div1 h3 {
+        font-size: 1.2em;
+    }
+    .div1 .icons{
+       
+        font-size: 1.8em;
+    }
+    .div1 #info {
+       font-size: 1em;
+    }
+    .div2{
+        padding: 8px;
+    }
+    .div2 h4{
+        font-size: 1em;
+    }
+    .div2 p{
+        font-size: .8em;
+    }
+    .div2 #btn-div2{
+        font-size: 1.2em;
+    }
+    .div3 video{
+        width: 75%;
+        height: 180px;
+        
+    }
+    .div3 div{
+        width: 80%;
+       padding-bottom: 20px;
+    }
+    .showcase1 h6, .showcase2 h6 {
+        font-size: .8em;
+    }
+    .div4 h6 {
+        font-size: .55em;
+    }
+    .div4 p {
+        font-size: .7em;
+    }
+    .div4 #btn-div4{
+        font-size: 1em;
+    }
+}
+@media(max-width: 768px){
+    body,.container{
+        width: 100%;
+        height: 1024px;
+    }
+    ul{
+        
+        padding: 0;
+    }
+    .nav{
+        background: rgba(41, 80, 60, 1);
+        color: white;
+        float: left;
+        width: 17%;
+        height: 1024px;
+       text-align: left;
+        
+    }
+    .div1,.div2,.div3,.div4{
+        width: 65%;
+        height: 350px;
+        margin: 30% auto;
+
+    }
+    video{
+        width: 70%
+    }
+    .showcase1 h6, .showcase2 h6 {
+        font-size: .8em;
+        padding-bottom: 10px;
+    }
+}
