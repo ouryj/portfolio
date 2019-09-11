@@ -7,11 +7,20 @@ $(document).ready(()=>{
    $('.div4').hide();
    $('.showcase2').hide();
     $('#info').on('click',()=>{
-        $('.nav').slideToggle();
+        $('.nav').slideToggle(600).delay(800);
     })
     
 
     $('#bio').on('click',(event)=>{
+        event.preventDefault()
+       $('.div2').slideToggle( 600 ).delay( 800 );
+       $('.div1').hide();
+       $('.div3').hide();
+       $('.div4').hide();
+       
+       
+    })
+    $('.fa-info-circle').on('click',(event)=>{
         event.preventDefault()
        $('.div2').slideToggle( 600 ).delay( 800 );
        $('.div1').hide();
